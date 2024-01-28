@@ -57,7 +57,7 @@
 }
 
 /* 
-.theme-menu:disabled {
+.theme-menu: {
   content: '▶';
   position: absolute;
 } */
@@ -84,20 +84,22 @@
   border: none;
 }
 
-.theme-menu__button:active {
+.theme-menu__button:active::before{
+  opacity: 0.6;
+  content: '▶'; 
+}
+/* .theme-menu__button:active .theme-menu__button::before {
   opacity: 0.6;
   content: '▶';
-  background-color: green;  
-}
-
+} */
 
 
 .theme-menu__button:disabled {
-  font-family: var(--accent-font);
+  /* font-family: var(--accent-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: normal; */
 
   
 }
