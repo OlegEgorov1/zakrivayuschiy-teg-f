@@ -17,4 +17,164 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font), 'sans-serif';
+  font-variation-settings: var(--font-weight-text);
+  background-color: var(--main-background-color);
+  color: var(--color-text, #000);
+  background-image: var(--background-image);
+  background-size: cover; 
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-text);
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center; 
+  width: 696px;
+  min-height: 364px;
+  border: 2px solid var(--color-text, #000);
+  background: var(--main-background-color, #FFF);
+  margin: 102px 372px 0px;
+  font-family: var(--accent-font), 'sans-serif';
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.logo {
+  font-size: clamp(3.0625rem, 0rem + 14.2857vw, 4.0625rem);
+  margin-block-end:  20px;
+}
+
+.title {
+  font-size: clamp(0.875rem, 0rem + 6.6667vw, 1.4375rem);
+  margin-block-end: 25px;
+}
+
+.theme-menu {
+  font-size: 14px;
+}
+
+/* 
+.theme-menu:disabled {
+  content: '▶';
+  position: absolute;
+} */
+
+.header__theme-menu {
+
+}
+
+
+
+.theme-menu__list {
+ 
+}
+
+
+.theme-menu__item {
+  margin-block-end: 14px;
+
+ 
+}
+
+.theme-menu__button {
+  background-color: transparent; 
+  border: none;
+}
+
+.theme-menu__button:active {
+  opacity: 0.6;
+  content: '▶';
+  background-color: green;  
+}
+
+
+
+.theme-menu__button:disabled {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  
+}
+
+.theme-menu__button:hover {
+  cursor: pointer; 
+  opacity: 0.6;
+}
+
+.theme-menu__button:focus {
+  outline: none;
+}
+
+.theme-menu__button:focus-visible {
+
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--color-text, #000);
+  background: var(--main-background-color, #FFF);
+  width: 696px;
+  height: 951px;
+  margin: 107px 372px 54px;
+}
+
+.content_paragraf {
+  height: 31px;
+  font-size: 18px;
+  font-weight: var(--font-weight-title);
+  line-height: normal;
+}
+
+
+.content_text {
+font-size: 18px;
+line-height: 21px; /* 116.667% */
+padding: 27px 25px;
+}
+
+.content_text_remember {
+  font-size: 18px;
+  line-height: 21px; /* 116.667% */
+  padding: 0px 25px 25px;
+  }
+
+.card__like-button {
+display: flex;
+width: 130px;
+height: 38px;
+padding: 9px 17px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+margin: 0px 25px 25px 541px;
+background-color: transparent; 
+border: 2px solid var(--color-text, #000);
+font-family: var(--accent-font);
+font-size: 14px;
+line-height: 90%; /* 12.6px */
+position: relative;
+}
+
+.like-icon {
+  position: absolute;
+  top: 5px;
+  right: 135px;
+}
+
+.content_button_save {
+  width: 335px;
+  height: 51px;
+  border: 2px solid var(--color-text, #000);
+  background: var(--Themes-background, #FFF);
+  background-color:  #FFF ; 
+  margin: 54px 180px;
 }
