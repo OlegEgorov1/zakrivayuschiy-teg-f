@@ -8,12 +8,10 @@
     --font-weight-table: 400;
     --main-background-color: #FFF;
     --color-text:  #000;
-    --background-image: 
+    --name: #000;
+    --filling: #FF0000;
+    --background-image:
     repeating-linear-gradient( #d3d3d3, transparent 2px),
     repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
     linear-gradient(180deg, #E7E7E7, #1A1A1A);
-
-   
-    
-
 }

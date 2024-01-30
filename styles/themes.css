@@ -13,13 +13,15 @@
         --font-weight-title: 785;
         --font-weight-table: 400;
         --color-text: #00CC14;
-        --background-image: 
+        --name: #00CC14;
+        --filling: #FF0000;
+        --background-image:
         repeating-linear-gradient(#000, transparent 2px),
         repeating-linear-gradient(90deg, #000, transparent 2px),
         repeating-linear-gradient(180deg, #007f0c, #004306);
-    
-       
-    } 
+
+
+    }
 }
 
  :root.theme-dark {
@@ -28,11 +30,13 @@
     --font-weight-title: 785;
     --font-weight-table: 400;
     --color-text: #00CC14;
-    --background-image: 
+    --name: #00CC14;
+    --filling: #FF0000;
+    --background-image:
         repeating-linear-gradient(#000, transparent 2px),
         repeating-linear-gradient(90deg, #000, transparent 2px),
         repeating-linear-gradient(180deg, #007f0c, #004306);
-} 
+}
 
 :root.theme-light {
     --main-background-color: #FFF;
@@ -40,5 +44,5 @@
     --font-weight-title: 700;
     --font-weight-table: 400;
     --color-text:  #000;
-} 
+}
 
