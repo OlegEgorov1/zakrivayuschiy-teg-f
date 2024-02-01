@@ -33,11 +33,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-<<<<<<< HEAD
   min-width: 696px;
-=======
-  width: 696px;
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
   min-height: 364px;
   border: 2px solid var(--color-text, #000); 
   background: var(--main-background-color, #FFF);
@@ -68,11 +64,7 @@
 .theme-menu__list {
 
 }
-<<<<<<< HEAD
 /* Список навигации */
-=======
-
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 .theme-menu__item {
   margin-block-end: 14px;
 }
@@ -82,7 +74,6 @@
   border: none;
   text-transform: uppercase;
   position: relative;
-<<<<<<< HEAD
 }
 /* Активная кнопка меню */
 .theme-menu__button:disabled {
@@ -91,16 +82,6 @@
 }
 /* Стрелочка у пункта меню  */
 .theme-menu__button:disabled::before  {
-=======
-}
-.theme-menu__button:disabled {
-  opacity: 0.6;
-  pointer-events: none;
-}
-
-
- .theme-menu__button:disabled::before  {
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
   opacity: 0.6;
   position: absolute;
   top: 0px;
@@ -112,21 +93,10 @@
   animation-direction:alternate;
 }
 
-<<<<<<< HEAD
 @keyframes moving_arrow {
   0% {
     left: -15px;
   }
-=======
- @keyframes moving_arrow {
-  0% {
-    left: -15px;
-  }
-/*
-  50% {
-    left: 0px;
-  } */
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 
   100% {
     left: -11px;
@@ -134,7 +104,6 @@
   }
 }
 
-<<<<<<< HEAD
 /* Фокус на кнопке меню */
 .theme-menu__button:hover:disabled  {
   opacity: 0.6;
@@ -142,38 +111,19 @@
 }
 
 /* Активная кнопка меню */
-=======
-
-
-.theme-menu__button:hover:disabled  {
-  opacity: 0.6;
-  pointer-events: none;
-}
-
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 .theme-menu__button:active {
   opacity: 0.6;
 
 }
 
-<<<<<<< HEAD
 .theme-menu__button:hover {
   cursor: pointer;
   opacity: 0.6; 
 }  
-=======
- .theme-menu__button:hover {
-  cursor: pointer;
-  opacity: 0.6;
-
-
-}
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 
 .theme-menu__button:focus {
   outline: none;
   opacity: 0.6;
-<<<<<<< HEAD
 }
 
 /* Нижнее подчеркивание у кнопок */
@@ -188,9 +138,6 @@
   left: 0;
   transition: 0.3s;
   transform: scaleX(0);
-=======
-
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 }
 
 .theme-menu__button:focus-visible::after {
@@ -198,29 +145,7 @@
   transform: scaleX(1);
 }
 
-<<<<<<< HEAD
 /* Контент страницы */
-=======
-.theme-menu__button::after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 2px;
-  background-color: var(--color-text);
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  transition: 0.3s;
-  transform: scaleX(0);
-}
-
-.theme-menu__button:focus-visible::after {
-width: 100%;
-transform: scaleX(1);
-
-}
-
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 .content {
   display: flex;
   flex-direction: column;
@@ -230,12 +155,7 @@ transform: scaleX(1);
   height: 951px; 
   margin: 107px 372px 54px;
   position: relative;
-<<<<<<< HEAD
   box-sizing: content-box;
-=======
-  top: ;
-  right: ;
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 }
 /* Надпись сверху картинки */
 .content_paragraf {
@@ -249,7 +169,6 @@ transform: scaleX(1);
 /* Общий клас на картинкку */
 .content_label {
 
-<<<<<<< HEAD
 }
 /* Стили у картинки */
 .content_img {
@@ -258,17 +177,6 @@ transform: scaleX(1);
 }
 /* Стили для надпись на картинке */
 .content_label_text {
-=======
-.label_content {
-
-}
-
-.content_img {
-
-}
-
-.label {
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
   position: absolute;
   top: 35px;
   right: 25px;
@@ -282,15 +190,9 @@ transform: scaleX(1);
   line-height: normal;
   text-transform: uppercase;
   opacity: 0.5;
-<<<<<<< HEAD
   mix-blend-mode: hard-light; 
 }
 /* Надписи внизу картинки */
-=======
-  mix-blend-mode: hard-light;
-}
-
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
 .content_text {
   font-size: 18px;
   line-height: 21px; /* 116.667% */
@@ -302,7 +204,6 @@ transform: scaleX(1);
   font-size: 18px;
   line-height: 21px; /* 116.667% */
   padding: 0px 25px 25px;
-<<<<<<< HEAD
 }
 
 /* Секция кнопки с сердцем */
@@ -513,179 +414,3 @@ dialog::backdrop {
   margin-top: 30px;
   cursor: pointer;
 }
-=======
-}
-
-
-
-
-
-.style_button {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  gap: 12px;
-}
-
-
-.card__icon-button {
-  background-color: transparent;
-  border: none;
-}
-
-.card__icon-button:focus {
- outline: none;
-}
-
-.card__icon-button:focus-visible {
-  border: 2px solid #000;
-  transition: 0.3s ease;
-  height: 38px;
- }
-
-
- .like-icon:hover path {
-  fill: #000;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.button {
-  /* display: flex; */
-  width: 130px;
-  height: 38px;
-  padding: 9px 17px;
-
-  gap: 10px;
-  flex-shrink: 0;
-  /* margin: 0px 25px 25px 541px; */
-  background-color: transparent;
-  border: 2px solid var(--color-text, #000);
-  font-family: var(--accent-font);
-  font-size: 14px;
-  line-height: 90%; /* 12.6px */
-  position: relative;
-
-
-
-}
-
- .button:hover {
-  cursor: pointer;
-}
-
-.button:focus {
-  outline: none;
-  box-shadow: 2px 2px 0px 0px var(--color-text);
-  transition: 0.3s ease-in-out;
-}
-
-
-
- .button::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-   top:0px ; right:0px ;
-
-  background-color: var(--color-text);
-  width: 100%;
-  transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
-  transform-origin: left;
-
-
-}
-
-.button:hover::after {
-   transform: scaleX(1);
-
-  }
-
-.button__text {
-  z-index: 11;
-  position: relative;
-  mix-blend-mode: difference;
-  color: #fff;
-}
-
-
- .card__like-button {
-  outline: none;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.is-like {
-
-}
-
-.content_button_save {
-  display: flex;
-  width: 335px;
-  height: 51px;
-  border: 2px solid var(--color-text, #000);
-  font-family: var(--accent-font);
-  font-size: 14px;
-  background-color: var(--main-background-color, #FFF);
-  margin: 54px 180px;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.symbol{
-  width: 21px;
-  height: 21px;
-  color: var(--color-text) #000000;
-}
-
-
-.sparks {
-opacity: 0;
-}
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
