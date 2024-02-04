@@ -15,10 +15,7 @@
         --color-text: #00CC14;
         --name: #00CC14;
         --filling: #FF0000;
-<<<<<<< HEAD
         --background-color-text: #00CC14;
-=======
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
         --background-image:
         repeating-linear-gradient(#000, transparent 2px),
         repeating-linear-gradient(90deg, #000, transparent 2px),
@@ -35,10 +32,7 @@
     --font-weight-table: 400;
     --color-text: #00CC14;
     --name: #00CC14;
-<<<<<<< HEAD
     --background-color-text: #00CC14;
-=======
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
     --filling: #FF0000;
     --background-image:
         repeating-linear-gradient(#000, transparent 2px),
@@ -54,4 +48,9 @@
     --font-weight-table: 400;
     --color-text:  #000;
 }
+/* 
+@media(prefers-color-scheme:dark) {
+  dialog::backdrop {
 
+  }
+} */
