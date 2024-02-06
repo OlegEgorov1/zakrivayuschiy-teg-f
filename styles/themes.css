@@ -5,8 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-
-@media(prefers-color-scheme:dark) {
+ @media(prefers-color-scheme:dark) {
     :root {
         --main-background-color: #000;
         --font-weight-text: 465;
@@ -15,18 +14,13 @@
         --color-text: #00CC14;
         --name: #00CC14;
         --filling: #FF0000;
-<<<<<<< HEAD
         --background-color-text: #00CC14;
-=======
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
         --background-image:
-        repeating-linear-gradient(#000, transparent 2px),
-        repeating-linear-gradient(90deg, #000, transparent 2px),
-        repeating-linear-gradient(180deg, #007f0c, #004306);
-
-
+        repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(#007f0c, #004306);
     }
-}
+} 
 
  :root.theme-dark {
     --main-background-color: #000;
@@ -35,15 +29,12 @@
     --font-weight-table: 400;
     --color-text: #00CC14;
     --name: #00CC14;
-<<<<<<< HEAD
     --background-color-text: #00CC14;
-=======
->>>>>>> bbe94c8cadfe5c4bcfc7400b3d76ae0497b0fd28
     --filling: #FF0000;
     --background-image:
-        repeating-linear-gradient(#000, transparent 2px),
-        repeating-linear-gradient(90deg, #000, transparent 2px),
-        repeating-linear-gradient(180deg, #007f0c, #004306);
+    repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(#007f0c, #004306);
 }
 
 :root.theme-light {
