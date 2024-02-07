@@ -17,7 +17,7 @@
 html {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .page {
@@ -78,22 +78,28 @@ html {
 }
 
 .content {
+
+}
+
+.card_list {
   border: 2px solid var(--color-text, #000);
   background: var(--main-background-color, #FFF);
   position: relative;
+  margin-block-end: 48px;
 }
 
 .content_paragraf {
   border-bottom: 2px solid var(--color-text, #000);
   font-size: 18px;
   font-weight: var(--font-weight-title);
-  line-height: 21px;
-  padding: 6px 27px 6px 10px;
+  line-height: 21.78px;
+  padding: 5px 24px 3px 10px;
 }
 
 .content_img {
+  display: block;
   width: 100%;
-  border-bottom: 2px solid var(--color-text, #000);
+  /* border-bottom: 2px solid var(--color-text, #000); */
 }
 
 .content_label_text {
@@ -114,22 +120,42 @@ html {
 }
 
 .content_text {
+  border-top: 2px solid var(--color-text, #000);
   font-size: 18px;
   line-height: 21px; 
-  padding: 20px 25px;
+  padding: 26px 24px 27px 26px;
+  font-weight: 400px;
+  font-family: var(--main-font)
+  /* padding-top: 25px;
+  padding-top: 25px;
+  padding-right: 25; 
+  padding-right: 27; 
+  padding-bottom: 27px;
+  padding-bottom: 27px;
+  padding-left: 25px;
+  padding-left: 25px; */
 }
 
+/* @media (max-width: 400px){
+  .content_text {
+    padding: 28px 24px 25px 27px;
+  }
+} */
+
 .content_text_remember {
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px; 
-  padding: 7px 25px 0px;
+  padding: 0px 25px 20px 25px;
+  font-family: var(--main-font)
 }
 
 .content_style_button {
   display: flex;
   justify-content: flex-end;
   align-items: center;    
-  padding: 21px 25px;
+  padding-right: 25px;
+  padding-bottom: 22px;
 }
 
 .card__icon-button {
@@ -173,7 +199,7 @@ html {
 footer {
   display: flex;
   justify-content: center;
-  margin: 48px;
+  margin: 31px;
 }
 
 .button_title {
