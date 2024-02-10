@@ -45,9 +45,4 @@
     --font-weight-table: 400;
     --color-text:  #000;
 }
-/* 
-@media(prefers-color-scheme:dark) {
-  dialog::backdrop {
 
-  }
-} */
