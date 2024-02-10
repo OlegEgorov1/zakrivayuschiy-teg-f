@@ -18,7 +18,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center; 
-}
+}  
 
 .page {
   min-inline-size: 320px;
@@ -43,7 +43,7 @@ html {
   max-height: 368px;
   border: 2px solid var(--color-text, #000);
   background: var(--main-background-color, #FFF);
-  margin: 100px 0;
+  margin: 100px 0; 
   font-family: var(--accent-font);
   text-transform: uppercase;
   line-height: normal;
@@ -77,10 +77,6 @@ html {
   position: relative;
 }
 
-.content {
-
-}
-
 .card_list {
   border: 2px solid var(--color-text, #000);
   background: var(--main-background-color, #FFF);
@@ -97,25 +93,66 @@ html {
 }
 
 .content_img {
-  display: block;
+  display: block; 
   width: 100%;
-  /* border-bottom: 2px solid var(--color-text, #000); */
+}
+
+.multiple_filter {
+  filter: hue-rotate(180deg);
+  -webkit-filter: hue-rotate(180deg);
+}
+
+.filter_one {
+  filter: saturate(165%);
+  -webkit-filter: saturate(165%); 
+}
+
+.filter_two {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+}
+
+.filter_three {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.filter_four {
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+}
+
+.filter_five {
+  filter: brightness(150%);
+  -webkit-filter: brightness(150%);
+}
+
+.filter_six {
+  filter: contrast(250%);
+  -webkit-filter: contrast(250%);
+}
+
+.filter_seven {
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+}
+
+.content_label {
+  position: relative;
 }
 
 .content_label_text {
   position: absolute;
-  top: 60px;
-  right: 25px;
+  top: 25px;
+  right: clamp(0.813rem, 1.171vw + 0.538rem, 1.563rem);
   color: var(--color-text, #000);
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: var(--main-background-color, #FFF);
   font-family: var(--accent-font);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  opacity: 0.5;
+  line-height: 14px;
+  opacity: 0.5; 
   mix-blend-mode: hard-light;
 }
 
@@ -124,23 +161,9 @@ html {
   font-size: 18px;
   line-height: 21px; 
   padding: 26px 24px 27px 26px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: var(--main-font)
-  /* padding-top: 25px;
-  padding-top: 25px;
-  padding-right: 25; 
-  padding-right: 27; 
-  padding-bottom: 27px;
-  padding-bottom: 27px;
-  padding-left: 25px;
-  padding-left: 25px; */
 }
-
-/* @media (max-width: 400px){
-  .content_text {
-    padding: 28px 24px 25px 27px;
-  }
-} */
 
 .content_text_remember {
   font-weight: 400;
@@ -211,13 +234,11 @@ footer {
   block-size: 39px;
 }
 
-
 .dialog__icon {
   inline-size: 39px;
   block-size: 39px;
   flex-shrink: 0;
 }
-
 
 .button_save {
   display: flex;
