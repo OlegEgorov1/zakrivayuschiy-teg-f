@@ -3,7 +3,7 @@
     font-family: 'Inter-Variable';
     font-display: swap;
     font-style: normal;
-    font-weight: 400 465 700 785;
+    font-weight: 400 785;
     src:
         url(../fonts/Inter-Variable.woff2) format('woff2 supports variations'),
         url(../fonts/Inter-Variable.woff2) format('woff2-variations');   
